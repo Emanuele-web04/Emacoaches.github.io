@@ -1,0 +1,1181 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700;800&family=PT+Mono&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::selection {
+  background-color: #e85d04;
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #343434;
+  width: 15px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e85d04;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b15000;
+}
+
+.text-orange {
+  color: #e85d04;
+}
+.text-white {
+  color: #fff;
+}
+.text-black {
+  color: #000;
+}
+.text-light-gray {
+  color: #c5c5c5;
+}
+.text-dark-gray {
+  color: #525151;
+}
+.text-dark-gray {
+  color: #525151;
+}
+
+.text-main {
+  font-family: "Bebas Neue", sans-serif;
+}
+.text-inter {
+  font-family: "sf-bold", sans-serif;
+}
+.text-pt-description {
+  font-family: "pt mono", sans-serif;
+}
+
+.text-justify-end {
+  text-align: right;
+}
+
+h1 {
+  font-size: 128px;
+  font-weight: 300;
+}
+h2 {
+  font-size: 96px;
+  font-weight: 300;
+}
+h3 {
+  font-size: 36px;
+  font-weight: 300;
+}
+a,
+h4 {
+  font-size: 24px;
+}
+h5 {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-family: "inter", sans-serif;
+  font-size: 20px;
+}
+p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "bebas neue", sans-serif;
+}
+p,
+a {
+  font-family: inter, sans-serif;
+}
+
+html {
+  background-color: #000;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("../img/hero-photo-desk.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 63.02%),
+    url(<path-to-image>), lightgray 50% / cover no-repeat,
+    linear-gradient(270deg, rgba(0, 0, 0, 0.69) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.btn button:hover {
+  cursor: pointer;
+}
+
+#header {
+  opacity: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 22px;
+  width: 100%;
+  max-width: 1440px;
+}
+
+#header a:hover {
+  color: #e85d04;
+}
+
+#header a {
+  font-family: "bebas neue", sans-serif;
+  background: none;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s all ease;
+}
+
+.navbar {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.navbar .btn button {
+  font-size: 24px;
+  padding: 10px 30px;
+}
+.height_100vh {
+  height: 100vh;
+}
+
+.hero-desk {
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0 22px;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.hero-desk h1 {
+  margin-top: 200px;
+  line-height: 85%;
+  letter-spacing: -1.12px;
+}
+
+.hero-desk h4 {
+  font-weight: 400;
+  letter-spacing: -0.8px;
+}
+
+.btn button {
+  padding: 15px 60px;
+  font-family: "bebas neue", sans-serif;
+  background-color: #e85d04;
+  border: none;
+  color: white;
+  font-size: 32px;
+  border-radius: 2px;
+}
+
+#is-this-you {
+  background-color: #000;
+}
+
+.square {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.is_this_you,
+.find_your_potential {
+  display: flex;
+  flex-basis: 30%;
+}
+
+.text_is_this_you,
+.text_find_your_potential {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 50px 100px 50px 50px;
+}
+
+.text_is_this_you p,
+.text_find_your_potential p,
+.text_coach p {
+  font-weight: 500;
+  line-height: 100.3%;
+  letter-spacing: -0.8px;
+  margin-bottom: 20px;
+}
+
+.text_find_your_potential {
+  background-color: #fff;
+}
+.text_find_your_potential h2 {
+  line-height: 93%;
+}
+
+.text_find_your_potential .btn button {
+  background-color: #000;
+  padding: 10px 100px;
+}
+
+#certified_coach {
+  background-color: #eaeaea;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text_coach h2 {
+  line-height: 93%;
+}
+
+.coach-container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 70vh;
+  margin-bottom: 50px;
+  gap: 75px;
+  padding: 0 22px;
+}
+
+.text_coach h5 {
+  padding-top: 50px;
+}
+
+.text_coach {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.btn-double {
+  display: flex;
+  gap: 40px;
+}
+
+.btn-double .btn button {
+  font-size: 28px;
+}
+
+#insta-btn {
+  background-color: #000;
+}
+
+.skills {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 22px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+#skills_explanation {
+  height: 100vh;
+  background-color: #f2f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_cards_skills {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.bgc-sk-exp {
+  max-width: 1440px;
+  padding: 0 22px;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.bgc-sk-exp h5 {
+  text-transform: none;
+  font-weight: 600;
+}
+
+.card {
+  width: 558px;
+  height: 226px;
+  border-radius: 6px;
+  background: var(--almost-black, #000);
+  box-shadow: -7px 9px 39px 2px rgba(0, 0, 0, 0.25);
+  padding: 30px;
+  color: #fff;
+}
+
+.card p {
+  color: #ececec;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.8px;
+}
+
+.title-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.orange {
+  background-color: #e85d04;
+}
+
+.double-cards {
+  display: flex;
+  max-width: 1440px;
+  justify-content: space-between;
+}
+
+.central-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.central-card .card {
+  background-color: #fff;
+  color: black;
+}
+
+.central-card .card p {
+  color: #525151;
+}
+
+#prices {
+  background-image: url("../img/background-prices.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height:100vh; */
+  padding: 0 22px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_prices {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  padding: 0 22px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-price {
+  text-align: center;
+  color: white;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-price h5 {
+  text-transform: none;
+}
+
+.price-cards {
+  display: flex;
+  max-width: 1200px;
+  padding: 0 22px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  height: 80vh;
+  gap: 50px;
+}
+
+.price-cards h3 {
+  line-height: 93%;
+}
+
+.price_card {
+  width: 376px;
+  height: 651px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.4) 100%
+  );
+  box-shadow: 0px 9px 74px 3px rgba(255, 255, 255, 0.25);
+  padding: 30px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.fa-solid,
+.fa-check {
+  font-size: 27px;
+  color: #fff;
+}
+
+.price-box h2 {
+  font-size: 64px;
+  font-weight: 300;
+  text-align: center;
+  z-index: 200;
+  position: relative;
+  color: #eaeaea;
+}
+.price-box .btn button {
+  width: 100%;
+}
+
+#scheda_livello {
+  background: #000;
+}
+
+.price-cards p {
+  font-weight: 500;
+  letter-spacing: -0.8px;
+  font-size: 18px;
+}
+
+.check-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.chech_box {
+  display: flex;
+  gap: 10px;
+}
+
+.best-offer h5 {
+  font-family: "bebas neue", sans-serif;
+  font-weight: 300;
+}
+
+.best-offer {
+  background-color: black;
+  padding: 6px 20px;
+  position: relative;
+  bottom: 98px;
+  left: 172px;
+  border-radius: 6px;
+  width: 115px;
+}
+
+#footer {
+  background: linear-gradient(
+    180deg,
+    rgba(4, 4, 4, 0.2) 0%,
+    rgba(232, 93, 4, 0.89) 100%
+  );
+}
+
+#footer a strong {
+  color: white;
+}
+
+.container-alessandra p {
+  font-weight: 500;
+  letter-spacing: 0.8px;
+}
+
+.container-alessandra a {
+  font-size: 14px;
+  text-decoration: underline;
+  color: white;
+}
+
+.container-alessandra span {
+  text-transform: uppercase;
+}
+
+#footer p {
+  color: white !important;
+  font-size: 14px;
+  letter-spacing: -0.8px;
+}
+
+p strong {
+  font-weight: 600;
+}
+
+#logo-footer {
+  width: 160px;
+}
+
+.container_footer {
+  display: flex;
+  max-width: 1440px;
+  padding: 0 22px;
+  width: 100%;
+  margin: 0 auto;
+  align-items: flex-start;
+  gap: 240px;
+  padding: 100px 22px;
+}
+
+.footer_column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ham,
+.fullmenu {
+  display: none;
+}
+
+.icon-whatsapp {
+  display: none;
+}
+
+#footer img {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+@media (max-width: 1441px) {
+  h1 {
+    font-size: 96px;
+    font-weight: 300;
+  }
+  h2 {
+    font-size: 64px;
+    font-weight: 300;
+  }
+  h3 {
+    font-size: 32px;
+    font-weight: 300;
+  }
+  a,
+  h4 {
+    font-size: 20px;
+  }
+  h5 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: "inter", sans-serif;
+    font-size: 18px;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .btn button {
+    font-size: 24px;
+    padding: 10px 40px;
+  }
+  #header,
+  .hero-desk,
+  .square,
+  .coach-container,
+  .skills,
+  .bgc-sk-exp,
+  .container_prices,
+  .container_footer {
+    max-width: 1200px;
+  }
+
+  .skills img {
+    width: 75px;
+    height: 50%;
+  }
+
+  .find_your_potential img,
+  .is_this_you img {
+    width: 50%;
+  }
+
+  .coach-container img {
+    width: 45%;
+  }
+
+  .coach-container {
+    gap: 0px;
+    margin-bottom: 0px;
+  }
+
+  #certified_coach {
+    height: 60vh;
+  }
+
+  .card p {
+    font-size: 16px;
+  }
+
+  .card {
+    width: 450px;
+    height: 210px;
+  }
+
+  #prices {
+    height: 100vh;
+  }
+
+  .price-cards {
+    justify-content: space-around;
+  }
+
+  .container_footer {
+    gap: 200px;
+  }
+
+  #footer p {
+    font-size: 12px;
+  }
+
+  .btn-double .btn button {
+    font-size: 24px;
+  }
+
+  .navbar .btn button {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #header,
+  .hero-desk,
+  .square,
+  .coach-container,
+  .skills,
+  .bgc-sk-exp,
+  .container_prices,
+  .container_footer {
+    max-width: 1024px;
+  }
+
+  .square {
+    padding: 50px 22px 0 22px;
+  }
+
+  .text_is_this_you,
+  .text_find_your_potential {
+    padding: 25px;
+  }
+
+  #skills_explanation {
+    height: 80vh;
+  }
+
+  .navbar a {
+    font-size: 16px;
+  }
+
+  #logo-desktop {
+    width: 20%;
+  }
+  .container_footer {
+    gap: 150px;
+  }
+
+  .text_coach h5 {
+    padding-top: 0px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #header,
+  .hero-desk,
+  .square,
+  .coach-container,
+  .skills,
+  .bgc-sk-exp,
+  .container_prices,
+  .container_footer {
+    max-width: 992px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .btn button {
+    font-size: 20px;
+  }
+
+  #skills_explanation {
+    height: 100vh;
+  }
+
+  .container_cards_skills {
+    gap: 0px;
+  }
+
+  .bgc-sk-exp {
+    justify-content: space-around;
+  }
+  .bgc-sk-exp h2 {
+    text-align: center;
+  }
+
+  .double-cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container_cards_skills,
+  .double-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .coach-container img {
+    width: 40%;
+  }
+
+  .text_coach {
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  .btn-double {
+    justify-content: unset;
+  }
+
+  #certified_coach {
+    height: 80vh;
+  }
+
+  .coach-container {
+    flex-flow: column-reverse;
+    max-width: 768px;
+  }
+
+  #certified_coach p {
+    font-size: 14px;
+  }
+
+  #certified_coach .btn button {
+    font-size: 20px;
+  }
+
+  .skills {
+    justify-content: space-evenly;
+  }
+
+  .card {
+    padding: 25px;
+    height: 180px;
+    width: 430px;
+  }
+
+  .card img {
+    width: 30px;
+  }
+
+  .card p {
+    font-size: 14px;
+  }
+
+  .container_footer {
+    gap: 80px;
+  }
+
+  .price_card {
+    width: 350px;
+  }
+
+  .title-card h5 {
+    font-size: 16px;
+  }
+
+  #prices {
+    background-image: url("../img/tablet-background-stripes.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .coach-container img {
+    width: 375px;
+  }
+
+  .text_coach {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 48px;
+  }
+  .text_find_your_potential .btn button {
+    padding: 10px 60px;
+  }
+}
+
+@media (max-width: 992px) {
+  #header,
+  .hero-desk,
+  .square,
+  .coach-container,
+  .skills,
+  .bgc-sk-exp,
+  .container_prices,
+  .container_footer {
+    max-width: 768px;
+  }
+
+  body {
+    background-image: url("../img/hero-photo-tablet.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 63.02%),
+      url(<path-to-image>), lightgray 50% / cover no-repeat,
+      linear-gradient(270deg, rgba(0, 0, 0, 0.69) 0%, rgba(0, 0, 0, 0) 100%);
+  }
+
+  .fullmenu {
+    display: none;
+    background-color: #000;
+    position: absolute;
+    right: -100%;
+    transition: 0.5s all ease-in-out;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 0%;
+  }
+
+  .fullmenu a {
+    display: none;
+  }
+
+  .fullmenu.showMenu {
+    background-color: #000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: absolute;
+    right: 0%;
+    width: 100%;
+    margin: 0 auto;
+    gap: 20px;
+  }
+
+  .menuItem {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .fullmenu.showMenu a {
+    display: block;
+    text-decoration: none;
+    color: #e85d04;
+    text-transform: uppercase;
+    font-family: "bebas neue";
+    font-size: 32px;
+    margin: 10px auto;
+  }
+
+  .fullmenu.showMenu a:hover {
+    color: #fff;
+  }
+
+  .fullmenu.showMenu a > button {
+    color: white;
+    background-color: #e85d04;
+    font-family: "bebas neue";
+    padding: 5px 30px;
+    font-size: 32px;
+    border: none;
+    border-radius: 2px;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .ham {
+    display: block;
+    position: relative;
+    width: 32px;
+    height: 32px;
+  }
+
+  .ham span {
+    position: absolute;
+    height: 3px;
+    background-color: #e85d04;
+    top: 0;
+    left: 0;
+    -webkit-transform-origin: left;
+    transform-origin: left;
+    border-radius: 2px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .ham span:nth-of-type(3) {
+    width: 70%;
+    top: 24px;
+    left: 15%;
+  }
+
+  .ham span:nth-of-type(1) {
+    width: 70%;
+    text-align: center;
+    left: 15%;
+  }
+  .ham span:nth-of-type(2) {
+    width: 100%;
+    top: 12px;
+  }
+  .ham.open span:nth-of-type(1) {
+    width: 100%;
+    top: 1px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .ham.open span:nth-of-type(2) {
+    width: 0%;
+  }
+  .ham.open span:nth-of-type(3) {
+    width: 100%;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+  .hero-desk {
+    align-items: center;
+    text-align: center;
+  }
+
+  .height_100vh {
+    height: 100vh;
+  }
+
+  .fa-whatsapp {
+    font-size: 37px;
+  }
+
+  .hero-desk .btn button {
+    padding: 10px 60px;
+    font-size: 24px;
+  }
+
+  .find_your_potential img,
+  .is_this_you img {
+    width: 50%;
+  }
+
+  /* .is_this_you, .find_your_potential {
+        flex-flow: column-reverse;
+    }
+
+    .find_your_potential {
+        flex-flow: column;
+    } */
+
+  .text_coach {
+    max-width: 576px;
+  }
+
+  .icon-whatsapp {
+    display: block;
+  }
+
+  .skills {
+    max-width: 576px;
+  }
+  #header {
+    position: relative;
+    z-index: 10000;
+  }
+}
+
+@media (max-width: 768px) {
+  #header,
+  .hero-desk,
+  .square,
+  .coach-container,
+  .skills,
+  .bgc-sk-exp,
+  .container_prices,
+  .container_footer {
+    max-width: 576px;
+  }
+
+  h1 {
+    font-size: 64px;
+  }
+
+  .square {
+    flex-direction: column;
+  }
+  .is_this_you,
+  .find_your_potential {
+    flex-flow: column-reverse;
+  }
+
+  .is_this_you img,
+  .find_your_potential img {
+    width: 100%;
+  }
+  .coach-container {
+    height: auto;
+  }
+  .is_this_you {
+    flex-flow: column;
+  }
+  .is_this_you button,
+  .find_your_potential button {
+    width: 100%;
+  }
+
+  .price-cards {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  #prices {
+    height: auto;
+    padding: 22px;
+  }
+  #footer {
+    height: auto;
+  }
+  .text-price {
+    margin-bottom: 20px;
+  }
+  .price-cards {
+    gap: 20px;
+  }
+
+  .container_footer {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .skills {
+    display: none;
+  }
+  #logo-desktop {
+    width: 35%;
+  }
+}
+
+@media (max-width: 576px) {
+  #header,
+  .hero-desk,
+  .square,
+  .coach-container,
+  .skills,
+  .bgc-sk-exp,
+  .container_prices,
+  .container_footer {
+    max-width: 375px;
+    padding: 0 22px;
+  }
+
+  .btn-double {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .btn-double button {
+    width: 100%;
+  }
+
+  .skills img {
+    width: 50px;
+  }
+
+  .card,
+  .central-card {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  #prices {
+    background-image: url("../img/bgk-phone-stripes.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #header {
+    padding-top: 10px;
+  }
+  .container_footer {
+    justify-content: space-between;
+    padding: 22px;
+  }
+  #footer {
+    margin: 0 auto !important;
+  }
+  #footer img {
+    padding-top: 30px;
+  }
+  body {
+    background-image: url("../img/Pexels\ Photo\ by\ Victor\ Freitas.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 63.02%),
+      url(<path-to-image>), lightgray 50% / cover no-repeat,
+      linear-gradient(270deg, rgba(0, 0, 0, 0.69) 0%, rgba(0, 0, 0, 0) 100%);
+  }
+
+  #certified_coach,
+  #skills_explanation {
+    height: auto;
+    padding: 22px;
+  }
+
+  #certificazione-photo {
+    width: 300px;
+  }
+
+  #footer img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
